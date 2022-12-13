@@ -1,0 +1,81 @@
+[
+
+	{
+		"r_libelle_groupe_champs": "Signalitique du client",
+		"r_groupe_champs": [
+			{
+				"r_labelle": "Nom du client",
+				"r_type" : "text",
+				"r_taille":35,
+				"r_valeur":"",
+				"r_placeholder":""
+			},
+			{
+				"r_labelle": "prenoms du client",
+				"r_type" : "text",
+				"r_taille":35,
+				"r_valeur":"",
+				"r_placeholder":""
+			},
+			{
+				"r_labelle": "Age du client",
+				"r_type" : "number",
+				"r_taille":10,
+				"r_valeur":"",
+				"r_placeholder":""
+			},
+			{
+				"r_labelle": "Civilité",
+				"r_type" : "select",
+				"r_taille":35,
+				"r_valeur":"",
+				"r_placeholder":"",
+				"r_options": [
+
+					{"r_valeur": "Monsieur"},
+					{"r_valeur": "Madame"},
+					{"r_valeur": "Mlle"}
+
+				]
+			},{
+				"r_labelle": "Description",
+				"r_type" : "textarea",
+				"r_valeur":"",
+				"r_placeholder":""
+			}
+		]
+	},
+
+	{
+		"r_libelle_groupe_champs": "Information bancaire",
+		"r_champs": [
+			{
+				"r_labelle": "Numéro du compte",
+				"r_type" : "text",
+				"r_taille":24,
+				"r_valeur":"",
+				"r_placeholder":""
+			},
+			{
+				"r_labelle": "Solde actuel",
+				"r_type" : "number",
+				"r_taille":10,
+				"r_valeur":"",
+				"r_placeholder":""
+			},
+			{
+				"r_labelle": "Nature du prêt",
+				"r_type" : "textarea",
+				"r_valeur":"",
+				"r_placeholder":""
+			},{
+				"r_labelle": "Description",
+				"r_type" : "textarea",
+				"r_valeur":"",
+				"r_placeholder":""
+			}
+		]
+	}
+
+
+]
